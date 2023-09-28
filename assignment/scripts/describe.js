@@ -26,10 +26,11 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called name and set it to a string called 'Dane'
+// We create a conditional to check if the variable name is set to 'Mary' using the === to ensure the strings are of equal value
+// If the variable name is set to 'Mary', the console will log 'Hi, Mary!'
+// We then create an else portion of the conditional, so that if the variable name is not set to 'Mary', the console will log 'How do you do?'
+// When we run this code, since name is set to 'Dane', it will not be equal to 'Mary', so we expect the console to log 'How do you do?'
 
 //CODE
 /*
@@ -45,10 +46,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create an undefined variable named secret, and a numerical variable called code set to 123
+// We create a conditional so that if the variable code is exactly equal to 123, the variable secret will be set to the string 'super' and we will set the numerical variable code to a new value of itself multiplied by 2
+// Since the numerical variable code is equal to 123, the variable will be multiplied by 2, and now equal 246
+// We then create a second conditional to check if the new value of the variable code is greater than 250, and if so, change the string value of variable secret to 'duper.'
+// Since the new value of code is 246, it is not greater than 250, so when we console log the variable secret, we expect it to read "super"
 
 //CODE
 /*
